@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="UTF-8" />
+		<title>mdater</title>
+		<link rel="stylesheet" href="zepto.mdater.css">
+		<script src="zepto.js"></script>
+		<script src="zepto.mdater.js"></script>
+	</head>
+	<body>
+		<img src="th.jpg">
+		<img src="OIP.jpg">
+		<img src="OIP.jpg">
+		<img src="OIP.jpg">
+		<input id="in" type="text" readonly>
+		<img src="OIP.jpg">
+		<img src="OIP.jpg">
+		<a href="booking.html"><img src="jia.jpg"</a>
+		<table border="1" width="400"> 
+
+			<tr>
+			  <th rowspan="5">Time</th>
+			  <td>8:30 - 9:00</td> 
+			</tr>
+			<tr>
+			  <td>9:30 - 10:00</td>
+			</tr>
+			<tr>
+			  <td style="background-color: yellow;">10:30-11:00</td>
+			</tr>
+			<tr>
+				<td>14:30-15:00</td>
+			</tr>
+			<tr>
+				<td>15:30-16:00</td>
+			</tr>
+		</table>
+
+
+
+
+		<script>
+		$('#in').mdater({
+			minDate : new Date(2015, 2, 10)
+		});
+		</script>
+	</body>
+</html>

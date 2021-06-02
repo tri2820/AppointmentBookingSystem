@@ -1,0 +1,74 @@
+.bg{
+         position:fixed;
+         top: 0;
+         left: 0;
+         width:100%;
+         height:100%;
+         min-width: 320px;
+         z-index:-10;
+         zoom: 1;
+         background-color: #fff;
+         background: url(1.jpg) no-repeat;
+          background-size: cover;
+          -webkit-background-size: cover;
+           -o-background-size: cover;
+           background-position: center 0;
+        }
+#login-box{
+			width:30%;
+			height:auto;
+			margin:0 auto ;
+			margin-top:13%;
+			text-align:center;
+			background:#00000060;
+			padding:20px 50px;
+		}
+#login-box h1{
+		color:#fff;
+		}
+#login-box .form .item{
+		margin-top:15px;
+		}
+#login-box .form .item i{
+		font-size:18px;
+		color:#fff;
+		}
+#login-box .form .item input{
+		width:160px;
+		font-size:18px;
+		border:0;
+		border-bottom:2px solid #fff;
+		padding:5px 10px;
+		background:#ffffff00;
+		color:#fff;
+		}
+#login-box 	button{
+		margin-top:20px;
+		width:190px;
+		height:30px;
+		font-size:20px;
+		font-weight:700;
+		color:#fff;
+		background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+		border:0;
+		border-radius:15px;
+		}
+.radioStyle {
+
+    	display:block;
+    	margin: 300px auto;
+        text-align:center
+    }
+.radioStyle input:checked+label::before {
+           box-shadow: 0 0 6px #24b7e5;
+}
+.radioStyle button {	
+	display: inline-block;
+	background-color:transparent;
+	border-style:none;
+	color: #24b7e5;
+	width: 200px;
+	height:100px;
+	background: #c0c0c000;
+	
+}

@@ -1,0 +1,31 @@
+img{
+    width: 35px;
+    height: 35px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+p{
+    font-size: 35px;
+    color: rgb(53, 179, 179);
+}
+.h{
+    vertical-align:middle;
+    display: inline;
+    padding:0px;
+    margin:0px;
+}
+
+body{FONT: 12px "sans-serif", "Arial", "Verdana";}
+
+INPUT.txtInput {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 20px; BACKGROUND: #fff no-repeat 2px center; PADDING-BOTTOM: 2px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid
+}
+INPUT.searchInput {
+	BACKGROUND-IMAGE: url(http://img.namipan.com/p/f07aafc135dc521a17c505a9fc95a3649685fb9d55020000/3/2.gif)
+}
+INPUT.commentInput {
+	BACKGROUND-IMAGE: url(http://img.namipan.com/p/ba88715a8216c08d925f3e8613960df0bf38168578010000/3/1.gif)
+}
+INPUT.borderInput {
+	BORDER-RIGHT: #d5dee9 1px solid; PADDING-RIGHT: 3px; BACKGROUND-POSITION: left top; BORDER-TOP: #d5dee9 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #d5dee9 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #d5dee9 1px solid; BACKGROUND-REPEAT: no-repeat
+}
